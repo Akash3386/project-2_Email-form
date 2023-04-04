@@ -16,7 +16,7 @@ function App() {
 
   },[])
 
-  const loginHandler = (email, password) => {
+  const loginHandler = (email, password, collegeName) => {
     // We should of course check email and password
     // But it's just a dummy/ demo anyways
     localStorage.setItem('isLoggedIn','1')
